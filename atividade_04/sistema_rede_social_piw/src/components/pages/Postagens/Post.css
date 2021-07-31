@@ -1,0 +1,50 @@
+.postagens{
+    margin: auto;
+    width: auto;
+    padding: 20px;
+    background-color: #1a1919;
+}
+
+.cabecalho{
+    margin-left: 20px;
+    padding: auto;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.card{
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    background-color: #000000;
+    width: auto;
+    margin: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card .card-texto{
+    align-items: justify;
+    margin: auto;
+    font-size: 16px;
+}
+
+.card .likes{
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card .interacoes{
+    display: flex;
+}
+
+.card .interacoes button{
+    margin: 10px;
+    padding: auto;
+    border: none;
+    border-radius: 5%;
+    color: #000000;
+    font-weight: bold;
+    background-color: grey;
+}

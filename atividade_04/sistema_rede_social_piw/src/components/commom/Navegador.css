@@ -1,0 +1,54 @@
+.navegador {
+    width: 700px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: #1a1919; 
+}
+
+.navegador .logo{
+    padding: 30px;
+    float: right;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.navegador .botoes{
+    margin: auto;
+    display: flex;
+}
+
+.navegador li{
+    list-style: none;
+}
+
+.navegador .link-linha{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 15px;
+    display: block;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: grey;
+    border-radius: 3px;
+}
+
+.navegador .link-post{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 15px;
+    display: block;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navegador .usuarioLogado{
+    margin: auto;
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
