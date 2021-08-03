@@ -1,0 +1,40 @@
+.navegador {
+    width: 700px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: #1a1919; 
+}
+
+.navegador .logo{
+    padding: 30px;
+    float: right;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-right: 20px;
+}
+
+.navegador .link-navegador{
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 15px;
+    display: block;
+    color: white;
+}
+
+.navegador .link-navegador.active{
+    background-color: grey;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.navegador .usuarioLogado{
+    margin-left: 50px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
