@@ -1,0 +1,39 @@
+.form {
+    margin-left: 10px;
+}
+
+.cadastro{
+    width: 700px;
+    align-items: center;
+    margin: auto;
+    color: #ffffff;
+    background-color: black;
+}
+
+.cadastro .card{
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.cadastro .card .card-coment{
+    margin: 20px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.margin {
+    margin-top: 15px;
+}
+
+.margin .button{
+    text-decoration: none;
+    margin: auto;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: grey;
+}

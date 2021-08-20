@@ -1,0 +1,13 @@
+.container-pagina-postar{
+    width: 700px;
+    margin: auto;
+}
+
+.card{
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    background-color: #000000;
+    border-radius: 20px;
+    align-items: justify;
+}

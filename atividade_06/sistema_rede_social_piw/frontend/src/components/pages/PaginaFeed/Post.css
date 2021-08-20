@@ -1,0 +1,88 @@
+.postagens{
+    margin: auto;
+    padding: 10px;
+    background-color: #1a1919;
+    align-items: justify;
+    text-align: justify;
+}
+
+.cabecalho{
+    margin-left: 40px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.postagens .card{
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    background-color: #000000;
+    border-radius: 20px;
+    align-items: justify;
+}
+
+.postagens .card .card-texto{
+    margin-left: 40px;
+    font-size: 16px;
+    align-items: justify;
+}
+
+.card .likes{
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card .card-coment{
+    margin: 20px;
+    background-color: #1a1919;
+    border-radius: 5px;
+}
+
+.card .interacoes{
+    display: flex;
+    margin-left: 20px;
+}
+
+.card .interacoes .buttoncurtir{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    background-color: grey;
+}
+
+.card .interacoes .buttoncurtir:hover {
+    background-color: grey;
+    color:white;
+}
+
+.interacoes2{
+    display: flex;
+    align-items: center;
+}
+
+.button2{
+    text-decoration: none;
+    margin: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.button2:hover {
+    background-color: grey;
+    color:white;
+}
+
+.interacoes2 textarea {
+    resize: none;
+    width: 800px;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
